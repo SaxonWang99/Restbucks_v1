@@ -55,7 +55,7 @@ Given private IP of self EC2 instance - listen_address
 Given private IP of self EC2 instance - rpc_address
 rpc_allowed : true
 
-To start cassandra : sudo cass -R &
+To start cassandra : sudo cassandra -R &
 Check status : nodetool status
 cqlsh private IP : it shows all 3 nodes IP.
 describe keyspaces : after starting kong it will show kong
